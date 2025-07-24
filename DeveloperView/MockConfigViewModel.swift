@@ -71,7 +71,7 @@ extension ServiceConfig {
         [
             ServiceConfig(
                 key: "user_profile",
-                name: "UserProfileService",
+                name: "UserProfile",
                 domain: "Authentication",
                 tags: ["user", "profile", "auth"],
                 availableMocks: [
@@ -81,7 +81,7 @@ extension ServiceConfig {
             ),
             ServiceConfig(
                 key: "payment_gateway",
-                name: "PaymentGatewayService",
+                name: "PaymentGateway",
                 domain: "Authentication",
                 tags: ["payment", "gateway", "checkout"],
 
@@ -93,7 +93,7 @@ extension ServiceConfig {
             ),
             ServiceConfig(
                 key: "content_feed",
-                name: "ArticleContentService",
+                name: "ArticleContent",
                 domain: "ContentDelivery",
                 tags: ["articles", "feed", "news"],
                 availableMocks: [
